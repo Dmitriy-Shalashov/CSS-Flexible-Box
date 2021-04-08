@@ -1,0 +1,93 @@
+@import "./reset.css";
+
+* {
+   font-family: Arial, Helvetica, sans-serif;
+   box-sizing: border-box;
+}
+
+body {
+   width: 100%;
+   background-color: rgb(44, 44, 44);
+   text-align: center;
+}
+
+header {
+   height: 450px;
+   background: url(https://static.pexels.com/photos/248515/pexels-photo-248515.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.section-info {
+   width: 82%;
+   height: 250px;
+   background-color: rgb(216, 216, 216);
+   display: inline-flex;
+   flex-direction: column;
+}
+
+.info-title {
+   height: 90px;
+   background-color: rgb(153, 153, 153);
+}
+
+.info-text {
+   border: 1px solid black;
+   display: flex;
+   height: 100%;
+}
+.info-col {
+   border: 1px solid black;
+   width: 50%;
+}
+
+.section-services {
+   height: 570px;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.services {
+   width: 270px;
+   height: 500px;
+   background-color: rgb(216, 153, 108);
+}
+
+.section-content {
+   width: 82%;
+   height: 250px;
+   background-color: rgb(216, 216, 216);
+   display: inline-flex;
+   flex-direction: column;
+}
+.content-title {
+   height: 125px;
+}
+.content-text {
+   height: 125px;
+   background-color: rgb(134, 98, 72);
+}
+
+.section-contact {
+   height: 340px;
+   display: flex;
+   flex-direction: row;
+}
+.contact {
+   width: 50%;
+   height: 100%;
+   background-color: coral;
+}
+
+footer {
+   height: 95px;
+   display: flex;
+   flex-direction: row;
+}
+.footer {
+   width: 50%;
+   height: 100%;
+   background-color: rgb(221, 250, 91);
+   border: 1px solid black;
+}
